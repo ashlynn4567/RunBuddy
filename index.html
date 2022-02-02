@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <!-- navigation-->
+    <!--navigation-->
     <header>
       <h1>
         <a href="/"> RUN BUDDY </a>
@@ -32,6 +32,7 @@
         </ul>
       </nav>
     </header>
+    <!--end navigation-->
 
     <!--hero/jumbotron-->
     <section class="hero">
@@ -42,17 +43,18 @@
         </p>
         <form>
           <label for="name">Enter your full name:</label>
-          <input 
-            class ="form-input" 
-            type="text" 
-            placeholder="Name" 
-            name="name" 
-            id="name" />
+          <input
+            class="form-input"
+            type="text"
+            placeholder="Name"
+            name="name"
+            id="name"
+          />
         </form>
         <form>
           <label for="email">Enter your email address:</label>
           <input
-            class ="form-input"   
+            class="form-input"
             type="email"
             placeholder="Email Address"
             name="email"
@@ -62,7 +64,7 @@
         <form>
           <label for="phone">Enter your phone number:</label>
           <input
-            class ="form-input"   
+            class="form-input"
             type="tel"
             placeholder="Phone Number"
             name="phone"
@@ -81,11 +83,11 @@
             I acknowledge that I am at least 18 years of age.
           </label>
           <input type="checkbox" name="age-confirm" />
-        </p>  
+        </p>
         <button type="submit">Get running!</button>
       </div>
     </section>
-    <!--End hero/jumbotron-->
+    <!--end hero/jumbotron-->
 
     <!--"what we do" section-->
     <section id="what-we-do" class="intro">
@@ -99,23 +101,24 @@
         sustainable Intelligentsia umami deep v craft
       </p>
     </section>
+    <!--end "what we do" section-->
 
     <!--"what you do" section-->
     <section id="what-you-do" class="steps">
       <h2 class="section-title secondary-border">What You Do</h2>
       <div>
         <!--Empty alt attributes below because image is decorative.-->
-        <img src="./assets/images/step-1.svg" alt=""/>
+        <img src="./assets/images/step-1.svg" alt="" />
         <h3>Step 1: <span>Fill Out The Form Above.</span></h3>
         <p>You're already here, so why not?</p>
       </div>
       <div>
-        <img src="./assets/images/step-2.svg" alt=""/>
+        <img src="./assets/images/step-2.svg" alt="" />
         <h3>Step 2: <span>Consult With One of Our Trainers.</span></h3>
         <p>Are you here to build muscle, lose weight, or just feel good?</p>
       </div>
       <div>
-        <img src="./assets/images/step-3.svg" alt=""/>
+        <img src="./assets/images/step-3.svg" alt="" />
         <h3>Step 3: <span>Get Running.</span></h3>
         <p>
           Hit the ground running (literally) once your trainer lays out your
@@ -123,18 +126,22 @@
         </p>
       </div>
       <div>
-        <img src="./assets/images/step-4.svg" alt=""/>
+        <img src="./assets/images/step-4.svg" alt="" />
         <h3>Step 4: <span>See Results.</span></h3>
         <p>Bi-weekly checkins with your trainer will keep you focused.</p>
       </div>
     </section>
+    <!--end "what you do" section-->
 
     <!--"meet your trainers" section-->
-    <section>
-      <h2>Meet Your Trainers</h2>
-      <div>
-        <img />
-        <div>
+    <section id="your-trainers" class="trainers">
+      <h2 class="section-title primary-border">Meet Your Trainers</h2>
+      <article class="trainer">
+        <img
+          src="./assets/images/trainer-1.jpg"
+          alt="Arron Stephens in his workout clothes, ready to pump iron."
+        />
+        <div class="trainer-bio text-left">
           <h3>Arron Stephens</h3>
           <h4>Speed/Strength</h4>
           <p>
@@ -144,11 +151,10 @@
             suscipit amet quis repellat!
           </p>
         </div>
-      </div>
+      </article>
 
-      <div>
-        <img />
-        <div>
+      <article class="trainer">
+        <div class="trainer-bio text-right">
           <h3>Joanna Gill</h3>
           <h4>Endurance</h4>
           <p>
@@ -158,11 +164,18 @@
             suscipit amet quis repellat!
           </p>
         </div>
-      </div>
+        <img
+          src="./assets/images/trainer-2.jpg"
+          alt="Joanna Gill cooling off after a workout."
+        />
+      </article>
 
-      <div>
-        <img />
-        <div>
+      <article class="trainer">
+        <img
+          src="./assets/images/trainer-3.jpg"
+          alt="Harry Smith wearing a headband and lifting comically small pink weights."
+        />
+        <div class="trainer-bio text-left">
           <h3>Harry "The Headband" Smith</h3>
           <h4>Strength</h4>
           <p>
@@ -172,8 +185,9 @@
             suscipit amet quis repellat!
           </p>
         </div>
-      </div>
+      </article>
     </section>
+    <!--end "meet your trainers" section-->
 
     <!--"reach out" section-->
     <section>
@@ -192,6 +206,7 @@
         <p></p>
       </div>
     </section>
+    <!--end "reach out" section-->
 
     <!--footer-->
     <footer>
@@ -202,5 +217,6 @@
         &copy; 2019 Run Buddy, Inc.
       </div>
     </footer>
+    <!--end footer-->
   </body>
 </html>
