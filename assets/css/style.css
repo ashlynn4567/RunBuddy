@@ -48,31 +48,6 @@ body {
 }
 /* end <body> */
 
-/* apply styles to <footer> */
-footer {
-  background: #fce138;
-  width: 100%;
-  padding: 40px 35px;
-}
-
-footer h2 {
-  display: inline;
-  color: #024e76;
-  font-size: 30px;
-  margin: 0;
-}
-
-footer div {
-  float: right;
-  line-height: 1.5;
-  text-align: right;
-}
-
-footer a {
-  color: #024e76;
-}
-/* end <footer> */
-
 /* add padding around middle sections */
 section {
   padding: 60px;
@@ -241,3 +216,66 @@ section {
   line-height: 1.3;
 }
 /* end meet-your-trainers section */
+
+/* apply style to reach-out section */
+.contact {
+  text-align: center;
+  background: #024e76;
+}
+
+.contact h2 {
+  color: #fce138;
+}
+
+.contact-info iframe {
+  width: 400px;
+  height: 400px;
+}
+
+.contact-info div {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: white;
+}
+
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
+
+.contact-info p,
+.contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+/* end reach-out section */
+
+/* apply styles to <footer> */
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #024e76;
+}
+/* end <footer> */
