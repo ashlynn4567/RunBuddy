@@ -13,6 +13,15 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  /* vendor prefix for safari */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 header h1 {
@@ -362,6 +371,7 @@ footer a {
   header {
     padding-bottom: 0;
     justify-content: center;
+    position: relative;
   }
 
   header h2 {
