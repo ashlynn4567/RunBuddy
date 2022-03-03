@@ -19,7 +19,7 @@ This is Version 1 of Run Buddy, without any responsive elements.
 This is Version 2 and the current view of Run Buddy. The page is responsive, adapting to multiple screen sizes.
 
 <p align="center">
-<img src="./assets/images/Run-Buddy-Version2.jpg">
+<img src="./assets/images/Run-Buddy-Version2.JPG">
 </p>
 
 This shows the responsive sizing of RunBuddy. 
