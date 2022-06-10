@@ -1,50 +1,60 @@
-# Run Buddy Inc.
+# Run Buddy
 
-## Welcome to RunBuddy.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project features an assignment that mimics working closely with a client to address constantly updating needs and design choices. 
+## Table-of-Contents
 
-Through making this website, I created my first full webpage using HTML and CSS. This page started off with a basic HTML skeleton using semantic elements. After building the base, I added CSS to style the webapge according to the mockup images I was given by the RunBuddy team. They wished to create a visually appealing landing page that featured a call to action form. This form allowed users to sign up for their personal trainer services, building their client base one click at a time. 
+- [Description](#description)
+- [Deployed Site](#deployed-site)
+- [Features](#features)
 
-Because they relied on these sign ups, the form element changed several times. Originally, this website was outfitted with basic styling elements. However, RunBuddy found that their client base used a variety of devices, and then requested that we make the webpage responsive to accomodate many different types of users. Flexbox CSS funcitonality was added, including media queries that accounted for multiple device sizes. We also updated the visual appeal of their hero section by making the call to action form a transparent box to show some of the background image. This site also features a contact section with an embedded Google Map at the bottom. This implementation added to the usablity and professional feel of the site as a whole. 
+- [Technologies](#technologies)
+- [Future Development](#future-development)
+- [Credits](#credits)
 
-This project gave me experience with refactoring code multiple times to meet with a client's changing needs. The added implementation really made the site easier to use, and resulted in a higher user base for RunBuddy as well. 
+## Description
 
-## Usage and Features
+This is my first project for the University of Oregon Coding Bootcamp 2022. I must build my first webpage, RunBuddy, using a premade design mockup. In this project, I implement responsive HTML elements and CSS properties to make a functional and visually appealing webpage in which users can sign up for sessions with RunBuddy's personal trainers. This project features an assignment that mimics working closely with a client to address constantly updating needs and design choices.
 
-This is Version 1 of Run Buddy, without any responsive elements.
+## Deployed Site
 
-<p align="center"><img src="./assets/images/Run-Buddy-Version1.jpg"/></p>
+Follow [this link](https://ashlynn4567.github.io/RunBuddy/) to view and use our site!
 
-This is Version 2 and the current view of Run Buddy. The page is responsive, adapting to multiple screen sizes.
+## Features
+
+This is how Run Buddy currently appears to viewers. The page is responsive, adapting to multiple screen sizes. It is important to note that this project was built with only HTML and CSS, so the forms do not actually function.
 
 <p align="center">
-<img src="./assets/images/Run-Buddy-Version2.JPG">
+<img alt="A screenshot of Run Buddy, displaying a navigation bar, a hero section with a call-to-action form, an about section, a trainer section, and a contact form in the footer." src="./assets/images/run-buddy-screenshot.jpg"/>
 </p>
 
-This shows the responsive sizing of RunBuddy. 
+Using flexbox and media queries, this page resizes appropriately to different screen sizes. It features a navigation bar, a hero section with a call-to-action form, an about section, an informational section about the trainers, and a contact form embeded in the footer.
 
 <p align="center">
-<img src="./assets/images/Run-Buddy-responsive-gif.gif">
+<img alt="A gif displaying how the page responsively changes size based on the viewer's device size." src="./assets/images/run-buddy-demo.gif"/>
 </p>
 
-## Try it for yourself!
+## Technologies
 
-<a href="https://ashlynn4567.github.io/RunBuddy/">Click here to view RunBuddy's landing page.<a>
+- HTML
+- CSS
 
-## Suggestion Box
+## Future Development
 
 In the future, I would like to add the following improvements:
 
-- Add functionality and data storage features to the "hero cta form" and "contact us" sections.
+- Add functionality and data storage features to the call-to-action form and contact form.
 
-I'm a big believer in always refactoring code to improve it's functionality. If you would like to suggest your own improvements, you can reach me at the following links.
+I'm always interested in refactoring code to improve it's functionality. If you would like to suggest your own improvements, you can reach our development team at the links below.
 
-- <a href="https://github.com/ashlynn4567">GitHub<a>
-- <a href="www.linkedin.com/in/Ashley-Lynn-Smith">LinkedIn<a>
+- <a href="mailto:ashlynn4567@gmail.com">Email</a>
+- <a href="https://github.com/ashlynn4567">GitHub</a>
+- <a href="www.linkedin.com/in/Ashley-Lynn-Smith">LinkedIn</a>
 
 ## Credits
 
 This project was built with the help of the University of Oregon's Coding Boot Camp.
 
-©️2019 Run Buddy, Inc
+## Licensing
+
+The application is covered under the following license: [MIT](https://opensource.org/licenses/MIT)
