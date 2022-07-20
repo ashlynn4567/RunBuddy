@@ -7,7 +7,6 @@
 - [Description](#description)
 - [Deployed Site](#deployed-site)
 - [Features](#features)
-
 - [Technologies](#technologies)
 - [Future Development](#future-development)
 - [Credits](#credits)
@@ -18,7 +17,7 @@ This is my first project for the University of Oregon Coding Bootcamp 2022. I mu
 
 ## Deployed Site
 
-Follow [this link](https://ashlynn4567.github.io/RunBuddy/) to view and use our site!
+Follow [this link](https://ashlynn4567.github.io/RunBuddy/) to view and use my site!
 
 ## Features
 
@@ -45,7 +44,7 @@ In the future, I would like to add the following improvements:
 
 - Add functionality and data storage features to the call-to-action form and contact form.
 
-I'm always interested in refactoring code to improve it's functionality. If you would like to suggest your own improvements, you can reach our development team at the links below.
+I'm always interested in refactoring code to improve it's functionality. If you would like to suggest your own improvements, you can reach me at the links below.
 
 - <a href="mailto:ashlynn4567@gmail.com">Email</a>
 - <a href="https://github.com/ashlynn4567">GitHub</a>
