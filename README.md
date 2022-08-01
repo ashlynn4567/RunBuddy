@@ -13,7 +13,7 @@
 
 ## Description
 
-This is my first project for the University of Oregon Coding Bootcamp 2022. I must build my first webpage, RunBuddy, using a premade design mockup. In this project, I implement responsive HTML elements and CSS properties to make a functional and visually appealing webpage in which users can sign up for sessions with RunBuddy's personal trainers. This project features an assignment that mimics working closely with a client to address constantly updating needs and design choices.
+RunBuddy was built using a premade design mockup. In this project, I implement responsive HTML elements and CSS properties to make a functional and visually appealing webpage in which users can sign up for sessions with RunBuddy's personal trainers. This project features an assignment that mimics working closely with a client to address constantly updating needs and design choices.
 
 ## Deployed Site
 
